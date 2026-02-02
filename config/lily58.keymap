@@ -38,7 +38,7 @@
         raise {
             display-name = "Raise";
             bindings = <
-&trans            &trans             &trans      &trans       &trans     &trans                       &sl 3   &trans         &trans    &trans       &trans           &trans
+&trans            &trans             &trans      &trans       &trans     &trans                       &tog 3  &trans         &trans    &trans       &trans           &trans
 &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp EXCL    &kp AT       &kp HASH   &kp EQUAL                    &trans  &kp HOME       &kp UP    &kp END      &kp PRINTSCREEN  &kp K_VOL_UP
 &kp LPAR          &kp RPAR           &kp DOLLAR  &kp PERCENT  &kp CARET  &kp RPAR                     &trans  &kp LEFT       &kp DOWN  &kp RIGHT    &trans           &kp K_VOL_DN
 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AMPS    &kp STAR     &kp LPAR   &kp PLUS   &trans    &trans  &trans  &kp PAGE_DOWN  &trans    &kp PAGE_UP  &kp PIPE         &kp K_PP
@@ -47,6 +47,7 @@
         };
 
         gaming {
+            display-name = "Gaming";
             bindings = <
 &trans     &trans     &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &kp GRAVE  &kp TAB    &kp Q   &kp W   &kp E   &kp R                     &trans  &trans  &trans  &trans  &trans  &trans
